@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Botão que redireciona</title>
+  <style>
+    .btn {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <form onsubmit="window.location.href='https://exemplo.com/sucesso'; return false;">
+    <input type="text" placeholder="Digite algo..." required>
+    <button type="submit" class="btn">Enviar mensagem</button>
+  </form>
+
+</body>
+</html>
